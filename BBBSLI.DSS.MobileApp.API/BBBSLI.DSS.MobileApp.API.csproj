@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Carter" Version="8.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.2.22" />
+		<PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.2.22" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BBBSLI.DSS.MobileApp.Application\BBBSLI.DSS.MobileApp.Application.csproj" />
+		<ProjectReference Include="..\BBBSLI.DSS.MobileApp.Infrastructure\BBBSLI.DSS.MobileApp.Infrastructure.csproj" />
+		<ProjectReference Include="..\BBBSLI.DSS.MobileApp.Utility\BBBSLI.DSS.MobileApp.Utility.csproj" />
+	</ItemGroup>
+
+</Project>

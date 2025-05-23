@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BBBSLI.DSS.MobileApp.Domain\BBBSLI.DSS.MobileApp.Domain.csproj" />
+    <ProjectReference Include="..\BBBSLI.DSS.MobileApp.Infrastructure\BBBSLI.DSS.MobileApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\BBBSLI.DSS.MobileApp.Utility\BBBSLI.DSS.MobileApp.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

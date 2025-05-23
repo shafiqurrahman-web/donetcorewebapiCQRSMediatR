@@ -1,0 +1,62 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AppDbContextMobile",
+   "ContextNamespace": "",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "AppDbContext",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "BBBSLI.DSS.MobileApp.Infrastructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Donation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonationStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonationTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DonationType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Donor]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "sbd0005\\sqlexpress.BBBSDonationProd_v5_Local.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": true,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
